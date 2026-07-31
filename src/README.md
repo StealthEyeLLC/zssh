@@ -1,5 +1,5 @@
 # Source
 
-Implementation source belongs here after the governing architecture is committed and the first end-to-end build checkpoint is selected.
+Implementation has not started in this documentation package.
 
-Do not add scaffolding that pretends to satisfy a working-computer checkpoint.
+The first source checkpoint must implement the real end-to-end machine path defined by `../docs/BUILD.md`. Scaffolding, provider interfaces, schemas, protocol definitions, or placeholder commands do not satisfy that checkpoint.
