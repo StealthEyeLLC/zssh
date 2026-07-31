@@ -1,5 +1,5 @@
 # Assets
 
-Pinned firmware, guest-image, kernel, VMM, helper, and other non-source asset manifests belong here.
+This directory will contain manifests and provenance for pinned Cloud Hypervisor, firmware, base-image, kernel, and helper assets. Large binaries should not be committed casually.
 
-Large binaries should not be committed unless the governing build and release policy explicitly requires it. Record immutable origins and SHA-256 digests.
+Every certified asset requires an immutable source identity, digest, retrieval or build provenance, license information, and exact compatibility-tuple binding. A mismatched asset must fail closed.
