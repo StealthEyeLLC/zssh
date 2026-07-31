@@ -1,5 +1,5 @@
 # Scripts
 
-Deterministic development, image-build, verification, release, installation, and recovery commands belong here.
+No scripts are present at documentation initialization.
 
-Scripts must fail closed and must not silently mutate unrelated host or repository state.
+Future scripts must remain thin, inspectable helpers for deterministic build, validation, packaging, or evidence capture. Scripts cannot become a hidden controller, policy authority, or substitute for the Z executable.
