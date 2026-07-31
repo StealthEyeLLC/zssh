@@ -1,5 +1,5 @@
 # Tests
 
-Automated unit, integration, lifecycle, SSH, persistence, recovery, and negative-certification tests belong here.
+Tests must map to `../docs/CERTIFICATION.md` and cannot override governing law.
 
-A passing test must be tied to an exact implementation and dependency tuple.
+Unit tests may use mocks. Release certification must exercise a real KVM guest, pinned Cloud Hypervisor, authenticated SSH over AF_VSOCK, persistent disks, lifecycle recovery, confinement, and exact cleanup. Negative tests are required, not optional.
